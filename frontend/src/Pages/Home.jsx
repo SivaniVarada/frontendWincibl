@@ -19,9 +19,6 @@ export default function Home() {
       <Quiz />
       <Discover />
       <HowItWorks />
-      <Funds />
-      <Trusted />
-      <News />
       <Stories />
     </main>
   );

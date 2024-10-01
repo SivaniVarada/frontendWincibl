@@ -9,8 +9,8 @@ const NewsCard = ({ text }) => (
     <div className="pt-7 text-[13px] flex items-center gap-2">
       <img src={random} alt="person" className="w-10 h-10 rounded-full" />
       <div>
-        <h1 className="font-medium">Joy Arnold</h1>
-        <p className="text-[#BFBFC8]">@Joy Arnold222</p>
+        <h1 className="font-medium">Arjun Krishna</h1>
+        <p className="text-[#BFBFC8]">@arjunkrishna22</p>
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@ const NewsCard = ({ text }) => (
 
 export default function Stories() {
   return (
-    <section className="my-14">
+    <section className="mx-18">
       <Container>
         <div className="pt-14 pb-4 h-[700px] overflow-auto bg-[#F7F7F7] flex items-center lg:flex-nowrap flex-wrap gap-1">
           <article className="lg:w-1/2 w-full lg:pb-0 pb-4 flex flex-col lg:items-start items-center lg:ml-10 lg:mt-20">
@@ -27,14 +27,14 @@ export default function Stories() {
           </article>
           <div className="flex gap-4 sm:flex-nowrap flex-wrap lg:w-1/2 mx-auto">
             <div className="rounded-md w-full flex flex-col gap-3 items-center">
-              <NewsCard text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique sed arcu parturient nunc, neque euismod mollis tincidunt. " />
-              <NewsCard text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique sed arcu parturient nunc, " />
-              <NewsCard text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique sed arcu parturient nunc, neque euismod mollis tincidunt." />
+              <NewsCard text="The personalized insights have really helped me stay calm and focused daily!" />
+              <NewsCard text="Calm Connect’s mood analysis is spot-on and so easy to use!" />
+              <NewsCard text="I love the instant psychiatrist connection – it’s truly a lifesaver!" />
               
             </div>
             <div className="rounded-md w-full flex flex-col gap-3 items-center">
-              <NewsCard text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique sed arcu parturient nunc, neque euismod mollis tincidunt." />
-              <NewsCard text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique sed arcu parturient nunc, neque euismod mollis tincidunt." />
+              <NewsCard text="The playlist recommendations perfectly match my mood every time!" />
+              <NewsCard text="Calm Connect has helped me manage my emotions with quick insights and personalized support!" />
              
               
             </div>

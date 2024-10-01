@@ -7,26 +7,26 @@ const items = [
   {
     id: 1,
     icon: how_1,
-    heading: "National Emergency Numbers",
-    text: "Police: 112 or 100 \nFire:101 \nAmbulance:108",
+    heading: "NAMI",
+    text: "Call at 800-950-6264",
   },
   {
     id: 2,
     icon: how_2,
-    heading: "Disaster Management Helpline",
-    text: "NDMA: 1078\n 01126701728",
+    heading: "TELE MANAS",
+    text: "Call at 14416  or 1-800-891-4416",
   },
   {
     id: 3,
     icon: how_3,
-    heading: "NDRF HELPLINE",
-    text: "011-23438017 \n 011-23438019 ",
+    heading: "CROSS TEXT LINE",
+    text: "Text Home to 741741",
   },
   {
     id: 4,
     icon: how_4,
-    heading: "SDRF HELPLINE",
-    text: "+91-172-2711925 \n +91-124-2269913 \n +91-9815792222",
+    heading: "SUICIDE CRISIS LIFELINE",
+    text: "Call or Text 988",
   },
 ];
 

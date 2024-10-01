@@ -1,16 +1,9 @@
-import funds_1 from "./funds_1.png";
-import funds_2 from "./funds_2.png";
-import funds_3 from "./funds_3.png";
-import funds_4 from "./funds_4.png";
-import funds_5 from "./funds_5.png";
-import funds_6 from "./funds_6.png";
-import funds_7 from "./funds_7.png";
-import funds_8 from "./funds_8.png";
+
 
 import logo from "./logo.png";
 import quiz_illustration from "./quiz_illustration.png";
 import quiz_bg from "./quiz_bg.png";
-import c1 from "./c1.jpg";
+import c1 from "./c1.png";
 import c2 from "./c2.png";
 import c3 from "./c3.png";
 import c4 from "./c4.png";
@@ -29,14 +22,6 @@ import news_5 from "./news_5.png";
 import logo_2 from "./logo_2.png";
 
 export {
-  funds_1,
-  funds_2,
-  funds_3,
-  funds_4,
-  funds_5,
-  funds_6,
-  funds_7,
-  funds_8,
   logo,
   logo_2,
   quiz_illustration,

@@ -135,7 +135,7 @@ const DiscoverCard = ({ card }) => {
       <div className="relative rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform">
         <img src={card.image} alt={card.title} />
         <div className="absolute bottom-6 capitalize left-5 text-white font-bold sm:text-[40px]">
-          {card.title}
+          
         </div>
       </div>
     </Link>
@@ -147,7 +147,7 @@ export default function Discover() {
     <section className="my-14">
       <Container>
         <div>
-          <SectionTitle title="services" />
+          <SectionTitle title="issues faced" />
           <div className="grid sm:grid-cols-3 mt-4 sm:grid-cols-4 grid-cols-1 place-items-center lg:gap-10 gap-4">
             {cards.map((card) => (
               <DiscoverCard card={card} key={card.id} />

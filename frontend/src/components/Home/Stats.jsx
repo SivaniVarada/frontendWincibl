@@ -34,22 +34,22 @@ export default function Stats() {
   }, []);
 
   return (
-    <section className="stats_box py-10 grid place-items-center lg:grid-cols-4 grid-cols-2 gap-4 sm:w-9/12 w-11/12 mx-auto mt-6 px-10">
+    <section className="stats_box py-10 grid place-items-center lg:grid-cols-4 grid-cols-2 gap-4 sm:w-9/12 w-11/12 mx-auto mt-6 px-26">
       <div>
         <h1 className="md:text-[40px] text-[25px] font-bold">{disastersCount}%</h1>
         <p>People Affected Globally</p>
       </div>
       <div>
         <h1 className="md:text-[40px] text-[25px] font-bold">{lostLivesCount}+</h1>
-        <p>Suicides Every Year</p>
+        <p>Suicides Cases Every Year</p>
       </div>
       <div>
-        <h1 className="md:text-[40px] text-[25px] font-bold">{affectedCount}%</h1>
-        <p>Untreated in Low-Income Countries</p>
+        <h1 className="md:text-[40px] text-[24px] font-bold">{affectedCount}%</h1>
+        <p>Effected in Low Income States</p>
       </div>
       <div>
         <h1 className="md:text-[40px] text-[25px] font-bold">{globalTotalCount}%</h1>
-        <p>Increase in Depression Since 2020</p>
+        <p>Increase in Depression</p>
       </div>
     </section>
   );

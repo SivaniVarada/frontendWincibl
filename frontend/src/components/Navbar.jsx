@@ -10,54 +10,8 @@ function Navbar() {
       <Container>
         <div className="flex items-center justify-between h-16">
           <div className="flex gap-4 items-center">
-            <img className="h-[50px] w-[190px]" src={logo} alt="Workflow" />
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <Link
-                  to="../Pages/single.jsx"
-                  className=" hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Services
-                </Link>
-
-                <Link
-                  to="/"
-                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Fundraiser
-                </Link>
-                <Link
-                  to="/"
-                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Simulations
-                </Link>
-                <Link
-                  to="/"
-                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Community
-                </Link>
-                <Link
-                  to="/"
-                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Resources
-                </Link>
-                <Link
-                  to="/"
-                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Schemes
-                </Link>
-                <Link
-                  to="/"
-                  className="hover:bg-button-primary hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Programmes
-                </Link>
-              </div>
-            </div>
+            <img className="h-[50px] w-[210px]" src={logo} alt="Workflow" />
+            
           </div>
 
 
