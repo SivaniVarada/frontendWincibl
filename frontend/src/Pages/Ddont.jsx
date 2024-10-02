@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Home/HeroSection";
+
+import DepthAnalyze from "../components/Home/DepthAnalyze";
 
 export default function Ddont() {
     return (
       <main>
-        <Navbar/>
-        <Hero/>
+        <DepthAnalyze />
       </main>
     );
   }

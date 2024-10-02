@@ -11,7 +11,7 @@ function Popup() {
 
   const handleEmergencyClick = () => {
     // Redirect to the emergency page or any URL you want
-    navigate('/emergency');
+    navigate('/analyse');
   };
 
   const handleHelpRequest = () => {
@@ -50,7 +50,7 @@ function Popup() {
         }} onClick={handleClose}>&times;</span>
         <h1>WELCOME TO CALM CONNECT!</h1>
         
-        <button onClick={handleEmergencyClick} style={{
+        <button onClick={() => window.location.href = '/analyse'} style={{
           backgroundColor: 'teal',
           color: '#fff',
           border: 'none',

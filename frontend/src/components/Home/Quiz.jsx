@@ -11,9 +11,13 @@ function QuizSection() {
           <h1 className="font-bold lg:text-[50px] text-[40px] text-white pb-8">
             Ready to embark on your journey to a healthier you?
           </h1>
-          <button className="capitalize bg-[#3d5269] hover:bg-button-primary-hover transition-colors px-20 py-3 rounded-sm font-bold text-white mx-6">
+          <button
+            className="capitalize bg-[#3d5269] hover:bg-button-primary-hover transition-colors px-20 py-3 rounded-sm font-bold text-white mx-6"
+            onClick={() => window.location.href = '/analyse'}
+          >
             Start Now
           </button>
+
 
           {/* <button className="capitalize bg-button-primary hover:bg-button-primary-hover transition-colors px-14 py-3 rounded-sm font-bold text-white"
                   onClick={handleEmergencyClick} disabled={isSending}>
